@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # or whatever version you're using
+          node-version: '18' # or your preferred Node.js version
 
       - name: Install dependencies
         run: npm ci
@@ -28,4 +28,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build # adjust this to your build output directory
-          publish_branch: main # deploying to main branch
+          publish_branch: gh-pages # deploying to gh-pages branch
