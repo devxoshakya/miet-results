@@ -1,20 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaSortUp, FaSortDown } from 'react-icons/fa'; // Import the sorting icons
 
-const students = [
-  { name: 'PALLERLA SAI SANDEEP REDDY', rollNo: 'CSE-(IOT)', sem1SGPA: 8.5, sem2SGPA: 8.8 },
-  { name: 'A RAVI CHANDRA', rollNo: 'CS (IOT)', sem1SGPA: 8.4, sem2SGPA: 8.7 },
-  { name: 'ANAND BHORASKAR', rollNo: 'CS (AIML)', sem1SGPA: 8.3, sem2SGPA: 8.6 },
-  { name: 'KARTIKEYA GUPTA', rollNo: '2032149', sem1SGPA: 8.2, sem2SGPA: 8.5 },
-  { name: 'UTKARSH KUMAR', rollNo: '1083251', sem1SGPA: 8.1, sem2SGPA: 8.4 },
-  // Add more student data as needed
-];
-
 const getHighestSGPA = (student) => {
-  const semesters = [8, 7, 6, 5, 4, 3, 2, 1];
+  const semesters = Object.keys(student.SGPA).map(sem => parseInt(sem.replace('sem', ''), 10));
+  semesters.sort((a, b) => b - a);
   for (const sem of semesters) {
-    if (student[`sem${sem}SGPA`]) {
-      return student[`sem${sem}SGPA`];
+    if (student.SGPA[`sem${sem}`]) {
+      return student.SGPA[`sem${sem}`];
     }
   }
   return 0;
@@ -25,14 +17,15 @@ const StudentRow = ({ student, rank }) => {
 
   const toggleOpen = () => setIsOpen(!isOpen);
 
-  const semesters = [1, 2, 3, 4, 5, 6, 7, 8];
+  const semesters = Object.keys(student.SGPA).map(sem => parseInt(sem.replace('sem', ''), 10));
+  semesters.sort((a, b) => a - b);
 
   return (
     <>
       <tr className="cursor-pointer hover:bg-gray-100" onClick={toggleOpen}>
         <td className="border border-gray-300 px-0 py-0 text-center">{rank}</td>
         <td className="border border-gray-300 px-4 py-2 text-center">{student.name}</td>
-        <td className="border border-gray-300 px-4 py-0 text-center">{student.rollNo}</td>
+        <td className="border border-gray-300 px-4 py-0 text-center">{student.branch}</td>
       </tr>
       {isOpen && (
         <tr>
@@ -46,7 +39,7 @@ const StudentRow = ({ student, rank }) => {
               </thead>
               <tbody>
                 {semesters.map((sem) => {
-                  const sgpa = student[`sem${sem}SGPA`];
+                  const sgpa = student.SGPA[`sem${sem}`];
                   if (sgpa) {
                     return (
                       <tr key={sem}>
@@ -67,8 +60,19 @@ const StudentRow = ({ student, rank }) => {
 };
 
 const RankList = () => {
+  const [students, setStudents] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [sortOrder, setSortOrder] = useState('desc');
+
+  const DATA_URL = process.env.REACT_APP_DATA_BASE_URL;
+  console.log(DATA_URL);
+
+  useEffect(() => {
+    fetch(`${DATA_URL}`)
+      .then(response => response.json())
+      .then(data => setStudents(data))
+      .catch(error => console.error('Error fetching data:', error));
+  }, [DATA_URL]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
@@ -77,9 +81,6 @@ const RankList = () => {
   const toggleSortOrder = () => {
     setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
   };
-  if(toggleSortOrder){
-    console.log('sort order toggled')
-  }
 
   const sortedStudents = [...students].sort((a, b) => {
     const highestSGPAA = getHighestSGPA(a);
@@ -95,22 +96,22 @@ const RankList = () => {
   const filteredStudents = sortedStudents.filter(
     (student) =>
       student.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      student.rollNo.includes(searchTerm)
+      student.rollNo.toString().includes(searchTerm)
   );
 
+  if(toggleSortOrder){
+    
+  }
+
   return (
-  
     <div className="container mx-auto p-4">
       <div className='flex items-center justify-center'>
-      <div className='font-mono text-sm my-10 mx-auto'>
-      We take no guarantee of the information displayed below. <br>
-      </br>  
-      Please check the official <a href='https://oneview.aktu.ac.in/WebPages/aktu/OneView.aspx' className='text-blue-500' > AKTU Website </a> for your result. <br></br>
-      <br></br>
-      <a href='/disclaimer' className='text-blue-500 mx-auto'>full disclaimer</a>
+        <div className='font-mono text-sm my-10 mx-auto'>
+          We take no guarantee of the information displayed below. <br />
+          Please check the official <a href='https://oneview.aktu.ac.in/WebPages/aktu/OneView.aspx' className='text-blue-500'>AKTU Website</a> for your result. <br /><br />
+          <a href='/disclaimer' className='text-blue-500 mx-auto'>full disclaimer</a>
+        </div>
       </div>
-      </div>
-        
 
       <div className="flex justify-center mb-4">
         <input
