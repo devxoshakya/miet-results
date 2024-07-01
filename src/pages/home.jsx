@@ -78,7 +78,7 @@ const RankList = () => {
     setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
   };
   if(toggleSortOrder){
-    return null
+    console.log('sort order toggled')
   }
 
   const sortedStudents = [...students].sort((a, b) => {
