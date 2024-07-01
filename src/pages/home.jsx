@@ -77,6 +77,9 @@ const RankList = () => {
   const toggleSortOrder = () => {
     setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
   };
+  if(toggleSortOrder){
+    return null
+  }
 
   const sortedStudents = [...students].sort((a, b) => {
     const highestSGPAA = getHighestSGPA(a);
