@@ -1,4 +1,4 @@
-name: CI/CD
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -6,26 +6,26 @@ on:
       - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '18' # or whatever version you're using
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build the app
+      - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./build # adjust this to your build output directory
+          publish_branch: main # deploying to main branch
