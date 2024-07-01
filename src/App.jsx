@@ -2,6 +2,9 @@ import './App.css';
 import Header from './components/header.jsx';
 import React from 'react';
 import RankList from './pages/home.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Disclaimer from './pages/disclaimer.jsx';
+import Footer from './components/footer.jsx';
 
 
 const students = [
@@ -32,10 +35,16 @@ const students = [
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
-      <RankList students={students}/>
+      <Routes>
+        <Route path="/" element={<RankList students={students} />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+      </Routes>
+    <div className="App">
     </div>
+    <Footer />
+    </Router>
   );
 }
 
