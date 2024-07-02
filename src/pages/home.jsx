@@ -64,11 +64,9 @@ const RankList = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortOrder, setSortOrder] = useState('desc');
 
-  const DATA_URL = process.env.REACT_APP_DATA_BASE_URL;
-  console.log(DATA_URL);
-
+  
   useEffect(() => {
-    fetch(`${DATA_URL}`)
+    fetch("https://raw.githubusercontent.com/devxoshakya/portfolio/main/combined_student_data.json")
       .then(response => response.json())
       .then(data => setStudents(data))
       .catch(error => console.error('Error fetching data:', error));
