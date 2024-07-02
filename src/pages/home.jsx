@@ -70,7 +70,7 @@ const RankList = () => {
       .then(response => response.json())
       .then(data => setStudents(data))
       .catch(error => console.error('Error fetching data:', error));
-  }, [DATA_URL]);
+  }, []);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
