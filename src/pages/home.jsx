@@ -43,7 +43,13 @@ const RankList = () => {
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/devxoshakya/portfolio/main/combined_student_data.json")
       .then(response => response.json())
-      .then(data => setStudents(data))
+      .then(data => {
+        const rankedStudents = data.map((student, index) => ({
+          ...student,
+          rank: index + 1,
+        }));
+        setStudents(rankedStudents);
+      })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
@@ -87,6 +93,11 @@ const RankList = () => {
       (selectedYear === '' || student.year.toString() === selectedYear)
   );
 
+  const displayedStudents = filteredStudents.map((student, index) => ({
+    ...student,
+    displayedRank: sortOrder === 'asc' ? filteredStudents.length - index : index + 1,
+  }));
+
   return (
     <div className="container mx-auto p-4">
       <div className='flex items-center justify-center'>
@@ -98,28 +109,28 @@ const RankList = () => {
       </div>
 
       <div className='flex justify-center items-center gap-3'>
-      <div className="flex justify-center mb-4">
-        <input
-          type="text"
-          placeholder="Enter Name / Roll No."
-          value={searchTerm}
-          onChange={handleSearch}
-          className="border rounded-md p-2 w-full max-w-md"
-        />
-      </div>
-      <div className="flex justify-center mb-4">
-        <select
-          value={selectedYear}
-          onChange={handleYearChange}
-          className="border rounded-md p-2 w-full max-w-md"
-        >
-          <option value="">All Years</option>
-          <option value="1">1st Year</option>
-          <option value="2">2nd Year</option>
-          <option value="3">3rd Year</option>
-          <option value="4">4th Year</option>
-        </select>
-      </div>
+        <div className="flex justify-center mb-4">
+          <input
+            type="text"
+            placeholder="Enter Name / Roll No."
+            value={searchTerm}
+            onChange={handleSearch}
+            className="border rounded-md p-2 w-full max-w-md"
+          />
+        </div>
+        <div className="flex justify-center mb-4">
+          <select
+            value={selectedYear}
+            onChange={handleYearChange}
+            className="border rounded-md p-2 w-full max-w-md"
+          >
+            <option value="">All Years</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+          </select>
+        </div>
       </div>
 
       <div className="overflow-x-auto w-[80%] mx-auto md:w-full items-center">
@@ -142,8 +153,8 @@ const RankList = () => {
             </tr>
           </thead>
           <tbody>
-            {filteredStudents.map((student, index) => (
-              <StudentRow key={index} student={student} rank={index + 1} onOpenModal={openModal} />
+            {displayedStudents.map((student, index) => (
+              <StudentRow key={index} student={student} rank={student.displayedRank} onOpenModal={openModal} />
             ))}
           </tbody>
         </table>
