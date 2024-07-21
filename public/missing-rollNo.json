@@ -1,0 +1,2162 @@
+[
+    {
+        "overall_s_no": 110,
+        "s_no": 12,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 1,
+        "rollNo": 2300680540013,
+        "enrollNo": "",
+        "name": "JAYANT RAJ"
+    },
+    {
+        "overall_s_no": 136,
+        "s_no": 38,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 1,
+        "rollNo": 2300680540040,
+        "enrollNo": "",
+        "name": "VEDANT SHARMA"
+    },
+    {
+        "overall_s_no": 151,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "CE",
+        "year": 1,
+        "rollNo": 2300680000013,
+        "enrollNo": "",
+        "name": "SOMENDRA KUMAR"
+    },
+    {
+        "overall_s_no": 153,
+        "s_no": 15,
+        "course": "B.TECH",
+        "branch": "CE",
+        "year": 1,
+        "rollNo": 2300680000015,
+        "enrollNo": "",
+        "name": "VAIBHAV GOSWAMI"
+    },
+    {
+        "overall_s_no": 174,
+        "s_no": 10,
+        "course": "B.TECH",
+        "branch": "CS",
+        "year": 1,
+        "rollNo": 2300680120010,
+        "enrollNo": "",
+        "name": "AMAN SHAD"
+    },
+    {
+        "overall_s_no": 339,
+        "s_no": 120,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 1,
+        "rollNo": 2300680110120,
+        "enrollNo": "",
+        "name": "VISHAL SHARMA"
+    },
+    {
+        "overall_s_no": 359,
+        "s_no": 15,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520015,
+        "enrollNo": "",
+        "name": "AMAN ASTHANA"
+    },
+    {
+        "overall_s_no": 370,
+        "s_no": 26,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520026,
+        "enrollNo": "",
+        "name": "AVNI SANGWAN"
+    },
+    {
+        "overall_s_no": 380,
+        "s_no": 36,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520036,
+        "enrollNo": "",
+        "name": "DEVANSH MALIK"
+    },
+    {
+        "overall_s_no": 386,
+        "s_no": 42,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520042,
+        "enrollNo": "",
+        "name": "GAURI AGARWAL"
+    },
+    {
+        "overall_s_no": 443,
+        "s_no": 99,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520099,
+        "enrollNo": "",
+        "name": "SUCHAIT SINGH"
+    },
+    {
+        "overall_s_no": 447,
+        "s_no": 103,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520103,
+        "enrollNo": "",
+        "name": "UJJAWAL"
+    },
+    {
+        "overall_s_no": 450,
+        "s_no": 106,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 1,
+        "rollNo": 2300681520106,
+        "enrollNo": "",
+        "name": "UMANG VASIST"
+    },
+    {
+        "overall_s_no": 489,
+        "s_no": 27,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530027,
+        "enrollNo": "",
+        "name": "ARSHIT BALIYAN"
+    },
+    {
+        "overall_s_no": 504,
+        "s_no": 42,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530042,
+        "enrollNo": "",
+        "name": "DHRUV SINGH"
+    },
+    {
+        "overall_s_no": 507,
+        "s_no": 45,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530045,
+        "enrollNo": "",
+        "name": "GAURI GUPTA"
+    },
+    {
+        "overall_s_no": 509,
+        "s_no": 47,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530047,
+        "enrollNo": "",
+        "name": "HARDIK TYAGI"
+    },
+    {
+        "overall_s_no": 535,
+        "s_no": 73,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530073,
+        "enrollNo": "",
+        "name": "MAAHI MALIK"
+    },
+    {
+        "overall_s_no": 538,
+        "s_no": 76,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530076,
+        "enrollNo": "",
+        "name": "MANISH PAL"
+    },
+    {
+        "overall_s_no": 574,
+        "s_no": 112,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530112,
+        "enrollNo": "",
+        "name": "SOUMYA BHARDWAJ"
+    },
+    {
+        "overall_s_no": 580,
+        "s_no": 118,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 1,
+        "rollNo": 2300681530118,
+        "enrollNo": "",
+        "name": "VANSH PAL"
+    },
+    {
+        "overall_s_no": 622,
+        "s_no": 32,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540032,
+        "enrollNo": "",
+        "name": "DHERYA PRATAP SINGH CHAUHAN"
+    },
+    {
+        "overall_s_no": 640,
+        "s_no": 50,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540050,
+        "enrollNo": "",
+        "name": "MAHI TYAGI"
+    },
+    {
+        "overall_s_no": 649,
+        "s_no": 59,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540059,
+        "enrollNo": "",
+        "name": "NIDHI CHAUDHARY"
+    },
+    {
+        "overall_s_no": 662,
+        "s_no": 72,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540072,
+        "enrollNo": "",
+        "name": "RADHIKA"
+    },
+    {
+        "overall_s_no": 669,
+        "s_no": 79,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540079,
+        "enrollNo": "",
+        "name": "RISHI RAJ BENIWAL"
+    },
+    {
+        "overall_s_no": 670,
+        "s_no": 80,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540080,
+        "enrollNo": "",
+        "name": "RITIKA BHATI"
+    },
+    {
+        "overall_s_no": 672,
+        "s_no": 82,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540082,
+        "enrollNo": "",
+        "name": "RIYANSHI VERMA"
+    },
+    {
+        "overall_s_no": 687,
+        "s_no": 97,
+        "course": "B.TECH",
+        "branch": "CS (DS)",
+        "year": 1,
+        "rollNo": 2300681540097,
+        "enrollNo": "",
+        "name": "TUSHAR SHARMA"
+    },
+    {
+        "overall_s_no": 729,
+        "s_no": 22,
+        "course": "B.TECH",
+        "branch": "CS (IOT)",
+        "year": 1,
+        "rollNo": 2300681550022,
+        "enrollNo": "",
+        "name": "BHAVYA"
+    },
+    {
+        "overall_s_no": 746,
+        "s_no": 39,
+        "course": "B.TECH",
+        "branch": "CS (IOT)",
+        "year": 1,
+        "rollNo": 2300681550039,
+        "enrollNo": "",
+        "name": "KRISHNA MAHENDRU"
+    },
+    {
+        "overall_s_no": 770,
+        "s_no": 63,
+        "course": "B.TECH",
+        "branch": "CS (IOT)",
+        "year": 1,
+        "rollNo": 2300681550063,
+        "enrollNo": "",
+        "name": "YOGESH SHARMA"
+    },
+    {
+        "overall_s_no": 776,
+        "s_no": 6,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100006,
+        "enrollNo": "",
+        "name": "AAYUSH KADYAN"
+    },
+    {
+        "overall_s_no": 790,
+        "s_no": 20,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100020,
+        "enrollNo": "",
+        "name": "ADITYA YADAV"
+    },
+    {
+        "overall_s_no": 808,
+        "s_no": 38,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100038,
+        "enrollNo": "",
+        "name": "ANMOL BANSAL"
+    },
+    {
+        "overall_s_no": 835,
+        "s_no": 65,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100065,
+        "enrollNo": "",
+        "name": "ARYAN AGGARWAL"
+    },
+    {
+        "overall_s_no": 838,
+        "s_no": 68,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100068,
+        "enrollNo": "",
+        "name": "ARYAN SOAM"
+    },
+    {
+        "overall_s_no": 847,
+        "s_no": 77,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100077,
+        "enrollNo": "",
+        "name": "AVNISH TYAGI"
+    },
+    {
+        "overall_s_no": 850,
+        "s_no": 80,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100078,
+        "enrollNo": "",
+        "name": "AYUSH"
+    },
+    {
+        "overall_s_no": 866,
+        "s_no": 96,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100096,
+        "enrollNo": "",
+        "name": "CHIRAG MALIK"
+    },
+    {
+        "overall_s_no": 877,
+        "s_no": 107,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100107,
+        "enrollNo": "",
+        "name": "DEVANSH KUMAR"
+    },
+    {
+        "overall_s_no": 884,
+        "s_no": 114,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100114,
+        "enrollNo": "",
+        "name": "DIYA VERMA"
+    },
+    {
+        "overall_s_no": 885,
+        "s_no": 115,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100115,
+        "enrollNo": "",
+        "name": "DUSHYANT"
+    },
+    {
+        "overall_s_no": 893,
+        "s_no": 123,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100124,
+        "enrollNo": "",
+        "name": "HARSH KUMAR KAIDWAL"
+    },
+    {
+        "overall_s_no": 919,
+        "s_no": 149,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100149,
+        "enrollNo": "",
+        "name": "KARTIK SINGH"
+    },
+    {
+        "overall_s_no": 922,
+        "s_no": 152,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100152,
+        "enrollNo": "",
+        "name": "KAVI BARGOTI"
+    },
+    {
+        "overall_s_no": 985,
+        "s_no": 215,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100215,
+        "enrollNo": "",
+        "name": "PRANAV SINGH"
+    },
+    {
+        "overall_s_no": 1010,
+        "s_no": 240,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100240,
+        "enrollNo": "",
+        "name": "RISHIKA CHAUDHARY"
+    },
+    {
+        "overall_s_no": 1018,
+        "s_no": 248,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100248,
+        "enrollNo": "",
+        "name": "SAGAR SAINI"
+    },
+    {
+        "overall_s_no": 1087,
+        "s_no": 317,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100317,
+        "enrollNo": "",
+        "name": "VANSH KUMAR"
+    },
+    {
+        "overall_s_no": 1095,
+        "s_no": 325,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 1,
+        "rollNo": 2300680100325,
+        "enrollNo": "",
+        "name": "VANSHIKA TOMAR"
+    },
+    {
+        "overall_s_no": 1129,
+        "s_no": 1,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 1,
+        "rollNo": 2300680310001,
+        "enrollNo": "",
+        "name": "AADITYA DHANRAJ SAINI"
+    },
+    {
+        "overall_s_no": 1177,
+        "s_no": 49,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 1,
+        "rollNo": 2300680310049,
+        "enrollNo": "",
+        "name": "MAHI"
+    },
+    {
+        "overall_s_no": 1188,
+        "s_no": 60,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 1,
+        "rollNo": 2300680310060,
+        "enrollNo": "",
+        "name": "NIKHIL"
+    },
+    {
+        "overall_s_no": 1196,
+        "s_no": 68,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 1,
+        "rollNo": 2300680310068,
+        "enrollNo": "",
+        "name": "PRABAL GAUR"
+    },
+    {
+        "overall_s_no": 1197,
+        "s_no": 69,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 1,
+        "rollNo": 2300680310069,
+        "enrollNo": "",
+        "name": "PRABHAT TALIYAN"
+    },
+    {
+        "overall_s_no": 1252,
+        "s_no": 2,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 1,
+        "rollNo": 2300680200002,
+        "enrollNo": "",
+        "name": "ADITYA MAURYA"
+    },
+    {
+        "overall_s_no": 1259,
+        "s_no": 9,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 1,
+        "rollNo": 2300680200009,
+        "enrollNo": "",
+        "name": "BHAVYA KHOKHAR"
+    },
+    {
+        "overall_s_no": 1263,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 1,
+        "rollNo": 2300680200013,
+        "enrollNo": "",
+        "name": "DIPENDRA PRATAP SINGH"
+    },
+    {
+        "overall_s_no": 1268,
+        "s_no": 18,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 1,
+        "rollNo": 2300680200018,
+        "enrollNo": "",
+        "name": "PAVNEESH KAUSHIK"
+    },
+    {
+        "overall_s_no": 1270,
+        "s_no": 20,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 1,
+        "rollNo": 2300680200020,
+        "enrollNo": "",
+        "name": "SHREY DAHIYA"
+    },
+    {
+        "overall_s_no": 1275,
+        "s_no": 25,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 1,
+        "rollNo": 2300680200025,
+        "enrollNo": "",
+        "name": "VIPANSHU"
+    },
+    {
+        "overall_s_no": 1343,
+        "s_no": 9,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 1,
+        "rollNo": 2300680400009,
+        "enrollNo": "",
+        "name": "KAMAL KUMAR"
+    },
+    {
+        "overall_s_no": 1344,
+        "s_no": 10,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 1,
+        "rollNo": 2300680400010,
+        "enrollNo": "",
+        "name": "KUNAL SHARMA"
+    },
+    {
+        "overall_s_no": 1347,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 1,
+        "rollNo": 2300680400013,
+        "enrollNo": "",
+        "name": "MANSI"
+    },
+    {
+        "overall_s_no": 108,
+        "s_no": 6,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540006,
+        "enrollNo": 220068054012733,
+        "name": "AMMAR BIN HUSSAIN"
+    },
+    {
+        "overall_s_no": 112,
+        "s_no": 10,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540010,
+        "enrollNo": 220068054019360,
+        "name": "APURVA VERMA"
+    },
+    {
+        "overall_s_no": 116,
+        "s_no": 14,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540014,
+        "enrollNo": 220068054027397,
+        "name": "CHANCHAL MALIK"
+    },
+    {
+        "overall_s_no": 119,
+        "s_no": 17,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540017,
+        "enrollNo": 220068054036400,
+        "name": "HARSHIT JAIN"
+    },
+    {
+        "overall_s_no": 126,
+        "s_no": 24,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540025,
+        "enrollNo": 220068054049679,
+        "name": "MAYANK CHAUHAN"
+    },
+    {
+        "overall_s_no": 127,
+        "s_no": 25,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540026,
+        "enrollNo": 220068054050305,
+        "name": "MD MUBASSHIR"
+    },
+    {
+        "overall_s_no": 130,
+        "s_no": 28,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540029,
+        "enrollNo": 220068054056472,
+        "name": "NAVIN KUMAR"
+    },
+    {
+        "overall_s_no": 131,
+        "s_no": 29,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540030,
+        "enrollNo": 220068054057698,
+        "name": "NIKHIL KUMAR"
+    },
+    {
+        "overall_s_no": 133,
+        "s_no": 31,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540032,
+        "enrollNo": 220068054060162,
+        "name": "PALAK PRIYA"
+    },
+    {
+        "overall_s_no": 149,
+        "s_no": 47,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 2,
+        "rollNo": 2200680540051,
+        "enrollNo": 220068054095448,
+        "name": "UJJWAL KUMAR"
+    },
+    {
+        "overall_s_no": 181,
+        "s_no": 6,
+        "course": "B.TECH",
+        "branch": "CH",
+        "year": 2,
+        "rollNo": 2300680519005,
+        "enrollNo": "",
+        "name": "RAKESH KUMAR YADAW"
+    },
+    {
+        "overall_s_no": 183,
+        "s_no": 1,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110001,
+        "enrollNo": 220068011000535,
+        "name": "AARISH KHAN"
+    },
+    {
+        "overall_s_no": 195,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110014,
+        "enrollNo": 220068011007571,
+        "name": "AJAY TALIYAN"
+    },
+    {
+        "overall_s_no": 198,
+        "s_no": 16,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110017,
+        "enrollNo": 220068011010515,
+        "name": "AMAN CHAUDHARY"
+    },
+    {
+        "overall_s_no": 199,
+        "s_no": 17,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110018,
+        "enrollNo": 220068011011486,
+        "name": "AMAN TOMAR"
+    },
+    {
+        "overall_s_no": 216,
+        "s_no": 34,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110037,
+        "enrollNo": 220068011028349,
+        "name": "DEEKSHANT KUMAR"
+    },
+    {
+        "overall_s_no": 237,
+        "s_no": 55,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110062,
+        "enrollNo": 220068011042786,
+        "name": "KHUSHI"
+    },
+    {
+        "overall_s_no": 240,
+        "s_no": 58,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110065,
+        "enrollNo": 220068011046144,
+        "name": "KUMARI HINA"
+    },
+    {
+        "overall_s_no": 245,
+        "s_no": 63,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 2,
+        "rollNo": 2200680110070,
+        "enrollNo": 220068011047371,
+        "name": "LOVELY CHAUHAN"
+    },
+    {
+        "overall_s_no": 417,
+        "s_no": 110,
+        "course": "B.TECH",
+        "branch": "CS (AI)",
+        "year": 2,
+        "rollNo": 2300681529001,
+        "enrollNo": "",
+        "name": "ABHISHEK"
+    },
+    {
+        "overall_s_no": 422,
+        "s_no": 1,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 2,
+        "rollNo": 2200680110026,
+        "enrollNo": 220068011020566,
+        "name": "ARSHANA MITTAL"
+    },
+    {
+        "overall_s_no": 427,
+        "s_no": 6,
+        "course": "B.TECH",
+        "branch": "CS (AIML)",
+        "year": 2,
+        "rollNo": 2200680310048,
+        "enrollNo": 220068031038763,
+        "name": "ISHA"
+    },
+    {
+        "overall_s_no": 603,
+        "s_no": 2,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2100680100351,
+        "enrollNo": 210068010089017,
+        "name": "YASH GARG"
+    },
+    {
+        "overall_s_no": 623,
+        "s_no": 22,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100020,
+        "enrollNo": 220068010004568,
+        "name": "ABHIUDAY PANWAR"
+    },
+    {
+        "overall_s_no": 640,
+        "s_no": 39,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100037,
+        "enrollNo": 220068010008805,
+        "name": "AKASH UJJWAL"
+    },
+    {
+        "overall_s_no": 646,
+        "s_no": 45,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100043,
+        "enrollNo": 220068010009676,
+        "name": "AKSHIT"
+    },
+    {
+        "overall_s_no": 658,
+        "s_no": 57,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100055,
+        "enrollNo": 220068010013403,
+        "name": "ANANYA CHAUHAN"
+    },
+    {
+        "overall_s_no": 660,
+        "s_no": 59,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100057,
+        "enrollNo": 220068010014869,
+        "name": "ANKIT GOEL"
+    },
+    {
+        "overall_s_no": 779,
+        "s_no": 178,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100178,
+        "enrollNo": 220068010042541,
+        "name": "KETAN BHARGAVA"
+    },
+    {
+        "overall_s_no": 829,
+        "s_no": 228,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100228,
+        "enrollNo": 220068010058707,
+        "name": "NISHANT SAINI"
+    },
+    {
+        "overall_s_no": 931,
+        "s_no": 330,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100332,
+        "enrollNo": 220068010093636,
+        "name": "TANMAY SONI"
+    },
+    {
+        "overall_s_no": 933,
+        "s_no": 332,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100334,
+        "enrollNo": 220068010093909,
+        "name": "TANYA BANSAL"
+    },
+    {
+        "overall_s_no": 937,
+        "s_no": 336,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100338,
+        "enrollNo": 220068010094763,
+        "name": "TUSHAR GOSWAMI"
+    },
+    {
+        "overall_s_no": 940,
+        "s_no": 339,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100341,
+        "enrollNo": 220068010094878,
+        "name": "TUSHAR PUNIA"
+    },
+    {
+        "overall_s_no": 953,
+        "s_no": 352,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100355,
+        "enrollNo": 220068010097222,
+        "name": "VANSH KHAIWAL"
+    },
+    {
+        "overall_s_no": 954,
+        "s_no": 353,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2200680100356,
+        "enrollNo": 220068010097249,
+        "name": "VANSH NIRVAN"
+    },
+    {
+        "overall_s_no": 1002,
+        "s_no": 401,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 2,
+        "rollNo": 2300680109007,
+        "enrollNo": "",
+        "name": "PARAS SOAM"
+    },
+    {
+        "overall_s_no": 1098,
+        "s_no": 88,
+        "course": "B.TECH",
+        "branch": "CSE (DS)",
+        "year": 2,
+        "rollNo": 2200681540085,
+        "enrollNo": 220068154066529,
+        "name": "PRIYANSHU SAINI"
+    },
+    {
+        "overall_s_no": 1106,
+        "s_no": 96,
+        "course": "B.TECH",
+        "branch": "CSE (DS)",
+        "year": 2,
+        "rollNo": 2200681540093,
+        "enrollNo": 220068154079038,
+        "name": "SATVIK VATS"
+    },
+    {
+        "overall_s_no": 1107,
+        "s_no": 97,
+        "course": "B.TECH",
+        "branch": "CSE (DS)",
+        "year": 2,
+        "rollNo": 2200681540094,
+        "enrollNo": 220068154081588,
+        "name": "SHALU TIWARI"
+    },
+    {
+        "overall_s_no": 1110,
+        "s_no": 100,
+        "course": "B.TECH",
+        "branch": "CSE (DS)",
+        "year": 2,
+        "rollNo": 2200681540097,
+        "enrollNo": 220068154086143,
+        "name": "SHREYA JAIN"
+    },
+    {
+        "overall_s_no": 1112,
+        "s_no": 102,
+        "course": "B.TECH",
+        "branch": "CSE (DS)",
+        "year": 2,
+        "rollNo": 2200681540099,
+        "enrollNo": 220068154088573,
+        "name": "SIDH JAIN"
+    },
+    {
+        "overall_s_no": 1113,
+        "s_no": 103,
+        "course": "B.TECH",
+        "branch": "CSE (DS)",
+        "year": 2,
+        "rollNo": 2200681540100,
+        "enrollNo": 220068154088946,
+        "name": "SNEHA JAIN"
+    },
+    {
+        "overall_s_no": 1136,
+        "s_no": 1,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2100680310012,
+        "enrollNo": 210068031008493,
+        "name": "AKSHIT KUMAR"
+    },
+    {
+        "overall_s_no": 1175,
+        "s_no": 40,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310039,
+        "enrollNo": 220068031027988,
+        "name": "CHIRAG MALIK"
+    },
+    {
+        "overall_s_no": 1181,
+        "s_no": 46,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310046,
+        "enrollNo": 220068031036104,
+        "name": "HARSH VARDHAN"
+    },
+    {
+        "overall_s_no": 1201,
+        "s_no": 66,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310071,
+        "enrollNo": 220068031060173,
+        "name": "PALAK SHARMA"
+    },
+    {
+        "overall_s_no": 1203,
+        "s_no": 68,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310073,
+        "enrollNo": 220068031063901,
+        "name": "PRASHANT TOMAR"
+    },
+    {
+        "overall_s_no": 1204,
+        "s_no": 69,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310075,
+        "enrollNo": 220068031066012,
+        "name": "PRIYANKA SINGHAL"
+    },
+    {
+        "overall_s_no": 1208,
+        "s_no": 73,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310079,
+        "enrollNo": 220068031069571,
+        "name": "RAKSHIT MALIK"
+    },
+    {
+        "overall_s_no": 1212,
+        "s_no": 77,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310084,
+        "enrollNo": 220068031076199,
+        "name": "SAKSHAM SHARMA"
+    },
+    {
+        "overall_s_no": 1213,
+        "s_no": 78,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310086,
+        "enrollNo": 220068031077208,
+        "name": "SANCHIT TOMAR"
+    },
+    {
+        "overall_s_no": 1220,
+        "s_no": 85,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310095,
+        "enrollNo": 220068031088936,
+        "name": "SNEHA GUPTA"
+    },
+    {
+        "overall_s_no": 1229,
+        "s_no": 94,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310109,
+        "enrollNo": 220068031097270,
+        "name": "VANSH SAINI"
+    },
+    {
+        "overall_s_no": 1232,
+        "s_no": 97,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 2,
+        "rollNo": 2200680310112,
+        "enrollNo": 220068031097758,
+        "name": "VARUN TOMAR"
+    },
+    {
+        "overall_s_no": 1248,
+        "s_no": 5,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 2,
+        "rollNo": 2200680200009,
+        "enrollNo": 220068020042979,
+        "name": "KHUSHI PAL"
+    },
+    {
+        "overall_s_no": 1256,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 2,
+        "rollNo": 2200680200022,
+        "enrollNo": 220068020087671,
+        "name": "SHUBHAM VINOD BHARATI"
+    },
+    {
+        "overall_s_no": 1273,
+        "s_no": 10,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130009,
+        "enrollNo": 220068013019989,
+        "name": "ARMAN RAZA"
+    },
+    {
+        "overall_s_no": 1276,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130012,
+        "enrollNo": 220068013021315,
+        "name": "ARYAN KHATRI"
+    },
+    {
+        "overall_s_no": 1283,
+        "s_no": 20,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130019,
+        "enrollNo": 220068013034498,
+        "name": "GUNGUN GOEL"
+    },
+    {
+        "overall_s_no": 1285,
+        "s_no": 22,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130021,
+        "enrollNo": 220068013036409,
+        "name": "HARSHIT KAMBOJ"
+    },
+    {
+        "overall_s_no": 1298,
+        "s_no": 35,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130035,
+        "enrollNo": 220068013051821,
+        "name": "MOHD AAHAD"
+    },
+    {
+        "overall_s_no": 1309,
+        "s_no": 46,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130046,
+        "enrollNo": 220068013072394,
+        "name": "RITIK"
+    },
+    {
+        "overall_s_no": 1316,
+        "s_no": 53,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 2,
+        "rollNo": 2200680130053,
+        "enrollNo": 220068013084629,
+        "name": "SHIVAM YADAV"
+    },
+    {
+        "overall_s_no": 1342,
+        "s_no": 14,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 2,
+        "rollNo": 2300680409001,
+        "enrollNo": "",
+        "name": "ABHISHEK"
+    },
+    {
+        "overall_s_no": 1343,
+        "s_no": 15,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 2,
+        "rollNo": 2300680409002,
+        "enrollNo": "",
+        "name": "AMAN VISHNOI"
+    },
+    {
+        "overall_s_no": 1344,
+        "s_no": 16,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 2,
+        "rollNo": 2300680409003,
+        "enrollNo": "",
+        "name": "ANUBHAV CHAUDHARY"
+    },
+    {
+        "overall_s_no": 1348,
+        "s_no": 20,
+        "course": "B.TECH",
+        "branch": "ME",
+        "year": 2,
+        "rollNo": 2300680409007,
+        "enrollNo": "",
+        "name": "NIKHIL R"
+    },
+    {
+        "overall_s_no": 106,
+        "s_no": 5,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 3,
+        "rollNo": 2100680540005,
+        "enrollNo": 210068054016067,
+        "name": "ANURAG KUMAR YADAV"
+    },
+    {
+        "overall_s_no": 113,
+        "s_no": 12,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 3,
+        "rollNo": 2100680540013,
+        "enrollNo": 210068054031680,
+        "name": "HARSHIT PAL"
+    },
+    {
+        "overall_s_no": 115,
+        "s_no": 14,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 3,
+        "rollNo": 2100680540015,
+        "enrollNo": 210068054037279,
+        "name": "KIRTI MITTAL"
+    },
+    {
+        "overall_s_no": 119,
+        "s_no": 18,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 3,
+        "rollNo": 2100680540019,
+        "enrollNo": 210068054057793,
+        "name": "PRIYANSHI BHARDWAJ"
+    },
+    {
+        "overall_s_no": 123,
+        "s_no": 22,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 3,
+        "rollNo": 2100680540023,
+        "enrollNo": 210068054074971,
+        "name": "SHRADDHA"
+    },
+    {
+        "overall_s_no": 136,
+        "s_no": 8,
+        "course": "B.TECH",
+        "branch": "CH",
+        "year": 3,
+        "rollNo": 2200680519001,
+        "enrollNo": 220068051015501,
+        "name": "ANKIT SHARMA"
+    },
+    {
+        "overall_s_no": 138,
+        "s_no": 10,
+        "course": "B.TECH",
+        "branch": "CH",
+        "year": 3,
+        "rollNo": 2200680519003,
+        "enrollNo": 220068051019257,
+        "name": "APARNA SINGH"
+    },
+    {
+        "overall_s_no": 161,
+        "s_no": 22,
+        "course": "B.TECH",
+        "branch": "CIVIL",
+        "year": 3,
+        "rollNo": 2200680009006,
+        "enrollNo": 220068000035892,
+        "name": "HARSH SHARMA"
+    },
+    {
+        "overall_s_no": 384,
+        "s_no": 3,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110003,
+        "enrollNo": 210068011006366,
+        "name": "AJAY KUMAR PAL"
+    },
+    {
+        "overall_s_no": 394,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110013,
+        "enrollNo": 210068011020697,
+        "name": "AVESH TYAGI"
+    },
+    {
+        "overall_s_no": 395,
+        "s_no": 14,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110014,
+        "enrollNo": 210068011021280,
+        "name": "AYUSH DULLAT"
+    },
+    {
+        "overall_s_no": 409,
+        "s_no": 28,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110030,
+        "enrollNo": 210068011041682,
+        "name": "MANAV KATHURIA"
+    },
+    {
+        "overall_s_no": 415,
+        "s_no": 34,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110036,
+        "enrollNo": 210068011055309,
+        "name": "PRANJAL GAUR"
+    },
+    {
+        "overall_s_no": 424,
+        "s_no": 43,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110047,
+        "enrollNo": 210068011068985,
+        "name": "SATVIK TYAGI"
+    },
+    {
+        "overall_s_no": 425,
+        "s_no": 44,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110048,
+        "enrollNo": 210068011077282,
+        "name": "SIMRAN BHAGAT"
+    },
+    {
+        "overall_s_no": 429,
+        "s_no": 48,
+        "course": "B.TECH",
+        "branch": "CS & IT",
+        "year": 3,
+        "rollNo": 2100680110052,
+        "enrollNo": 210068011079415,
+        "name": "SUMIT KUMAR"
+    },
+    {
+        "overall_s_no": 463,
+        "s_no": 23,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2100680100022,
+        "enrollNo": 210068010003919,
+        "name": "ABHIYANK KAUSHIK"
+    },
+    {
+        "overall_s_no": 465,
+        "s_no": 25,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2100680100024,
+        "enrollNo": 210068010004612,
+        "name": "ADITI CHAUDHARY"
+    },
+    {
+        "overall_s_no": 692,
+        "s_no": 252,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2100680100263,
+        "enrollNo": 210068010062528,
+        "name": "RISHABH GOYAL"
+    },
+    {
+        "overall_s_no": 730,
+        "s_no": 290,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2100680100304,
+        "enrollNo": 210068010078353,
+        "name": "SPARSH SINGHAL"
+    },
+    {
+        "overall_s_no": 737,
+        "s_no": 297,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2100680100311,
+        "enrollNo": 210068010080549,
+        "name": "SURYANSH GOSWAMI"
+    },
+    {
+        "overall_s_no": 758,
+        "s_no": 318,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2100680100335,
+        "enrollNo": 210068010084440,
+        "name": "VANSHIKA GARG"
+    },
+    {
+        "overall_s_no": 795,
+        "s_no": 355,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2200680109001,
+        "enrollNo": 220068010002578,
+        "name": "ABHISHEK"
+    },
+    {
+        "overall_s_no": 799,
+        "s_no": 359,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2200680109006,
+        "enrollNo": 220068010021886,
+        "name": "ASHISH"
+    },
+    {
+        "overall_s_no": 806,
+        "s_no": 366,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2200680109014,
+        "enrollNo": 220068010055722,
+        "name": "NAITIK KAUSHIK"
+    },
+    {
+        "overall_s_no": 807,
+        "s_no": 367,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2200680109015,
+        "enrollNo": 220068010057718,
+        "name": "NIKHIL KUMAR"
+    },
+    {
+        "overall_s_no": 811,
+        "s_no": 371,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2200680109019,
+        "enrollNo": 220068010075444,
+        "name": "SAGAR CHAUDHARY"
+    },
+    {
+        "overall_s_no": 812,
+        "s_no": 372,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 3,
+        "rollNo": 2200680109020,
+        "enrollNo": 220068010076608,
+        "name": "SAKSHYA"
+    },
+    {
+        "overall_s_no": 824,
+        "s_no": 5,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310002,
+        "enrollNo": 210068031000798,
+        "name": "AAYUSHI GOYAL"
+    },
+    {
+        "overall_s_no": 830,
+        "s_no": 11,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310008,
+        "enrollNo": 210068031007523,
+        "name": "AKASH PUNIA"
+    },
+    {
+        "overall_s_no": 832,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310010,
+        "enrollNo": 210068031007906,
+        "name": "AKHIL TOMAR"
+    },
+    {
+        "overall_s_no": 841,
+        "s_no": 22,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310022,
+        "enrollNo": 210068031016671,
+        "name": "APOORVA BHARDWAJ"
+    },
+    {
+        "overall_s_no": 860,
+        "s_no": 41,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310045,
+        "enrollNo": 210068031030400,
+        "name": "HARIMAN DIXIT"
+    },
+    {
+        "overall_s_no": 878,
+        "s_no": 59,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310066,
+        "enrollNo": 210068031049816,
+        "name": "NEERAJ SAINI"
+    },
+    {
+        "overall_s_no": 889,
+        "s_no": 70,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310084,
+        "enrollNo": 210068031077132,
+        "name": "SIDDHARTH TYAGI"
+    },
+    {
+        "overall_s_no": 898,
+        "s_no": 79,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2100680310101,
+        "enrollNo": 210068031087761,
+        "name": "VISHAL SHARMA"
+    },
+    {
+        "overall_s_no": 900,
+        "s_no": 81,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2200680319002,
+        "enrollNo": 220068031100929,
+        "name": "VISHAL SHARMA"
+    },
+    {
+        "overall_s_no": 901,
+        "s_no": 82,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 3,
+        "rollNo": 2200680319003,
+        "enrollNo": 220068031101717,
+        "name": "VIVEK KUMAR"
+    },
+    {
+        "overall_s_no": 910,
+        "s_no": 9,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 3,
+        "rollNo": 2100680200010,
+        "enrollNo": 210068020018765,
+        "name": "ASHISH CHAUHAN"
+    },
+    {
+        "overall_s_no": 914,
+        "s_no": 13,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 3,
+        "rollNo": 2100680200014,
+        "enrollNo": 210068020022931,
+        "name": "BHAWNA SINGH"
+    },
+    {
+        "overall_s_no": 915,
+        "s_no": 14,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 3,
+        "rollNo": 2100680200015,
+        "enrollNo": 210068020024901,
+        "name": "DEEPAK SHARMA"
+    },
+    {
+        "overall_s_no": 924,
+        "s_no": 23,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 3,
+        "rollNo": 2100680200028,
+        "enrollNo": 210068020064907,
+        "name": "RUDRA LODHI"
+    },
+    {
+        "overall_s_no": 930,
+        "s_no": 29,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 3,
+        "rollNo": 2100680200036,
+        "enrollNo": 210068020084048,
+        "name": "VAIBHAV YADAV"
+    },
+    {
+        "overall_s_no": 946,
+        "s_no": 11,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130013,
+        "enrollNo": 210068013010677,
+        "name": "AMIT KUMAR"
+    },
+    {
+        "overall_s_no": 958,
+        "s_no": 23,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130025,
+        "enrollNo": 210068013033637,
+        "name": "ISHAN CHANDRA JOSHI"
+    },
+    {
+        "overall_s_no": 968,
+        "s_no": 33,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130038,
+        "enrollNo": 210068013054974,
+        "name": "PRAKHAR AUSTIN MOHAN"
+    },
+    {
+        "overall_s_no": 975,
+        "s_no": 40,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130046,
+        "enrollNo": 210068013069134,
+        "name": "SATYAM GOYAL"
+    },
+    {
+        "overall_s_no": 977,
+        "s_no": 42,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130048,
+        "enrollNo": 210068013072866,
+        "name": "SHIVAM CHOUDHARY"
+    },
+    {
+        "overall_s_no": 985,
+        "s_no": 50,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130058,
+        "enrollNo": 210068013086987,
+        "name": "VIPUL BANSAL"
+    },
+    {
+        "overall_s_no": 986,
+        "s_no": 51,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 3,
+        "rollNo": 2100680130059,
+        "enrollNo": 210068013087056,
+        "name": "VIPUL TYAGI"
+    },
+    {
+        "overall_s_no": 105,
+        "s_no": 5,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 4,
+        "rollNo": 2000680540007,
+        "enrollNo": 200068054014073,
+        "name": "AVI SINGH"
+    },
+    {
+        "overall_s_no": 116,
+        "s_no": 16,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 4,
+        "rollNo": 2000680540018,
+        "enrollNo": 200068054014084,
+        "name": "PAVITRA"
+    },
+    {
+        "overall_s_no": 118,
+        "s_no": 18,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 4,
+        "rollNo": 2000680540020,
+        "enrollNo": 200068054014086,
+        "name": "RAXIT TYAGI"
+    },
+    {
+        "overall_s_no": 124,
+        "s_no": 24,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 4,
+        "rollNo": 2000680540027,
+        "enrollNo": 200068054014093,
+        "name": "SIDDHARTH DHKOLIA"
+    },
+    {
+        "overall_s_no": 126,
+        "s_no": 26,
+        "course": "B.TECH",
+        "branch": "BT",
+        "year": 4,
+        "rollNo": 2000680540029,
+        "enrollNo": 200068054014095,
+        "name": "SNEHA BALIYAN"
+    },
+    {
+        "overall_s_no": 141,
+        "s_no": 11,
+        "course": "B.TECH",
+        "branch": "CH",
+        "year": 4,
+        "rollNo": 2100680519001,
+        "enrollNo": 210068051045393,
+        "name": "MOHD AQUIB"
+    },
+    {
+        "overall_s_no": 151,
+        "s_no": 9,
+        "course": "B.TECH",
+        "branch": "CIVIL",
+        "year": 4,
+        "rollNo": 2000680000008,
+        "enrollNo": 200068000013415,
+        "name": "HARSH YADAV"
+    },
+    {
+        "overall_s_no": 304,
+        "s_no": 27,
+        "course": "B.TECH",
+        "branch": "CS DS",
+        "year": 4,
+        "rollNo": 2000681540026,
+        "enrollNo": 200068154014235,
+        "name": "MOHD OWAIS"
+    },
+    {
+        "overall_s_no": 374,
+        "s_no": 12,
+        "course": "B.TECH",
+        "branch": "CS&IT",
+        "year": 4,
+        "rollNo": 2000680110014,
+        "enrollNo": 200068011013845,
+        "name": "BHUMIKA TYAGI"
+    },
+    {
+        "overall_s_no": 392,
+        "s_no": 30,
+        "course": "B.TECH",
+        "branch": "CS&IT",
+        "year": 4,
+        "rollNo": 2000680110035,
+        "enrollNo": 200068011013866,
+        "name": "VANSH SHARMA"
+    },
+    {
+        "overall_s_no": 495,
+        "s_no": 99,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 4,
+        "rollNo": 2000680100102,
+        "enrollNo": 200068010013545,
+        "name": "DEEPAK KUMAR"
+    },
+    {
+        "overall_s_no": 570,
+        "s_no": 174,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 4,
+        "rollNo": 2000680100184,
+        "enrollNo": 200068010013627,
+        "name": "MEENAL GUPTA"
+    },
+    {
+        "overall_s_no": 573,
+        "s_no": 177,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 4,
+        "rollNo": 2000680100187,
+        "enrollNo": 200068010013630,
+        "name": "MOHD UJAIR KHAN"
+    },
+    {
+        "overall_s_no": 612,
+        "s_no": 216,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 4,
+        "rollNo": 2000680100228,
+        "enrollNo": 200068010013671,
+        "name": "PRITHVI JAIN"
+    },
+    {
+        "overall_s_no": 682,
+        "s_no": 286,
+        "course": "B.TECH",
+        "branch": "CSE",
+        "year": 4,
+        "rollNo": 2000680100299,
+        "enrollNo": 200068010013742,
+        "name": "SHIVI MALIK"
+    },
+    {
+        "overall_s_no": 812,
+        "s_no": 16,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 4,
+        "rollNo": 2000680310019,
+        "enrollNo": 200068031013968,
+        "name": "DHANNAJAY JAISWAL"
+    },
+    {
+        "overall_s_no": 854,
+        "s_no": 58,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 4,
+        "rollNo": 2000680310071,
+        "enrollNo": 200068031014020,
+        "name": "VAIBHAV SHARMA"
+    },
+    {
+        "overall_s_no": 857,
+        "s_no": 61,
+        "course": "B.TECH",
+        "branch": "EC",
+        "year": 4,
+        "rollNo": 2000680310074,
+        "enrollNo": 200068031014023,
+        "name": "VARSHIT KANSAL"
+    },
+    {
+        "overall_s_no": 859,
+        "s_no": 1,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 1900680200020,
+        "enrollNo": 190068020013581,
+        "name": "NITIN KUMAR"
+    },
+    {
+        "overall_s_no": 861,
+        "s_no": 3,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200002,
+        "enrollNo": 200068020013917,
+        "name": "AASHURAJ"
+    },
+    {
+        "overall_s_no": 863,
+        "s_no": 5,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200005,
+        "enrollNo": 200068020013920,
+        "name": "ALTAMASH ANSARI"
+    },
+    {
+        "overall_s_no": 868,
+        "s_no": 10,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200010,
+        "enrollNo": 200068020013925,
+        "name": "ARPIT ARORA"
+    },
+    {
+        "overall_s_no": 869,
+        "s_no": 11,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200011,
+        "enrollNo": 200068020013926,
+        "name": "AVANEESH SINGH"
+    },
+    {
+        "overall_s_no": 872,
+        "s_no": 14,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200016,
+        "enrollNo": 200068020013931,
+        "name": "HIMANSHU SINGH"
+    },
+    {
+        "overall_s_no": 875,
+        "s_no": 17,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200020,
+        "enrollNo": 200068020013935,
+        "name": "MUKUL DHIMAN"
+    },
+    {
+        "overall_s_no": 883,
+        "s_no": 25,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2000680200030,
+        "enrollNo": 200068020013945,
+        "name": "YASH SIWATCH"
+    },
+    {
+        "overall_s_no": 886,
+        "s_no": 28,
+        "course": "B.TECH",
+        "branch": "EE",
+        "year": 4,
+        "rollNo": 2100680209003,
+        "enrollNo": 210068020033689,
+        "name": "ISHFAQ AHMAD DAR"
+    },
+    {
+        "overall_s_no": 892,
+        "s_no": 3,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 4,
+        "rollNo": 2000680130003,
+        "enrollNo": 200068013013874,
+        "name": "ANKUR SAXENA"
+    },
+    {
+        "overall_s_no": 896,
+        "s_no": 7,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 4,
+        "rollNo": 2000680130007,
+        "enrollNo": 200068013013878,
+        "name": "HARSH PATHAK"
+    },
+    {
+        "overall_s_no": 898,
+        "s_no": 9,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 4,
+        "rollNo": 2000680130009,
+        "enrollNo": 200068013013880,
+        "name": "HARSH SOAM"
+    },
+    {
+        "overall_s_no": 913,
+        "s_no": 24,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 4,
+        "rollNo": 2000680130026,
+        "enrollNo": 200068013013897,
+        "name": "PRINCE BRAR"
+    },
+    {
+        "overall_s_no": 914,
+        "s_no": 25,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 4,
+        "rollNo": 2000680130027,
+        "enrollNo": 200068013013898,
+        "name": "PRIYANKA TYAGI"
+    },
+    {
+        "overall_s_no": 931,
+        "s_no": 42,
+        "course": "B.TECH",
+        "branch": "IT",
+        "year": 4,
+        "rollNo": 2000680130044,
+        "enrollNo": 200068013013915,
+        "name": "VISHWAJEET REDHU"
+    }
+]

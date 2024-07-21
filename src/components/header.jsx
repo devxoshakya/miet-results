@@ -5,7 +5,7 @@ const Header = () => {
         <header className="flex items-center justify-center p-4">
             <div className="flex justify-center">
             </div>
-            <h1 className="text-4xl flex text-black font-sans md:text-3xl">MIET Results Namewise</h1>
+            <h1 className="text-4xl flex text-black font-sans md:text-3xl">MIET Results Listing</h1>
             
         </header>
     );

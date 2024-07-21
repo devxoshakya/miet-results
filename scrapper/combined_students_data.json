@@ -1,0 +1,32 @@
+[
+{
+    "overall_s_no": 1169,
+    "s_no": 41,
+    "course": "B.TECH",
+    "branch": "EC",
+    "year": 1,
+    "rollNo": 2300680310041,
+    "enrollNo": "",
+    "name": "KHUSHBOO",
+    "DOB": "2006-2-2",
+    "SGPA": {
+      "sem1": 7.86
+    }
+  },
+  {
+    "overall_s_no": 104,
+    "s_no": 2,
+    "course": "B.TECH",
+    "branch": "BT",
+    "year": 2,
+    "rollNo": 2200680540002,
+    "enrollNo": 220068054000697,
+    "name": "AASHISH TEOTIA",
+    "DOB": "2004-10-13",
+    "SGPA": {
+      "sem1": 6.55,
+      "sem2": 5.5,
+      "sem3": 5.24
+    }
+  }
+]

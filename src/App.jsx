@@ -5,6 +5,8 @@ import RankList from './pages/home.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Disclaimer from './pages/disclaimer.jsx';
 import Footer from './components/footer.jsx';
+import MissingData from './pages/missingData.jsx';
+import SubmitDOB from './pages/submitDOB.jsx';
 
 
 const students = [
@@ -40,6 +42,8 @@ function App() {
       <Routes>
         <Route path="/" element={<RankList students={students} />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/missing-rollNo" element={<MissingData />} />
+        <Route path="/submit" element={<SubmitDOB />} />
       </Routes>
     <div className="App">
     </div>
