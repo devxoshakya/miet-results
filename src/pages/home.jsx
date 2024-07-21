@@ -105,6 +105,7 @@ const RankList = () => {
           We take no guarantee of the information displayed below. <br />
           Please check the official <a href='https://oneview.aktu.ac.in/WebPages/aktu/OneView.aspx' className='text-blue-500'>AKTU Website</a> for your result. <br /><br />
           <a href='/disclaimer' className='text-blue-500 mx-auto'>full disclaimer</a>
+          <a href='/missing-rollNo' className='text-blue-500 mx-auto p-4'>missing data</a>
         </div>
       </div>
 
