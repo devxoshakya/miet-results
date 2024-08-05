@@ -13,7 +13,7 @@ MIET Results Scraper is a web application that fetches and displays the results 
 
 ## Deployment
 
-The project is deployed and accessible at [miet-results.vercel.app](https://miet-results.vercel.app).
+The project is deployed and accessible at [miet-results.devxoshakya.xyz](https://miet-results.devxoshakya.xyz).
 
 ## Getting Started
 
