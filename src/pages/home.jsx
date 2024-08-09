@@ -41,7 +41,7 @@ const RankList = () => {
   const [selectedStudent, setSelectedStudent] = useState(null);
 
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/devxoshakya/portfolio/main/combined_student_data.json")
+    fetch("https://raw.githubusercontent.com/devxoshakya/portfolio/main/public/combined_student_data.json")
       .then(response => response.json())
       .then(data => {
         const rankedStudents = data.map((student, index) => ({
