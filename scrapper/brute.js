@@ -128,25 +128,40 @@ function parseHTML(htmlContent){
   const rollNo = $('td:contains("RollNo")').next().next().text().trim() || 'N/A';
   const name = $('td:contains("Institute Code")').next().next().text().replace(/[0-9()]/g, '').trim().replace(/[\n\r\t]/g, '') || 'N/A';
   const branch = $('td:contains("Branch Code")').next().next().text().replace(/[0-9()]/g, '').trim() || 'N/A';
-  const sgpa = $('td:contains("SGPA")').next().next().text().trim() || 'N/A';
   const fullName = $('td:contains("Name")').next().next().text().replace(/[0-9()]/g, '').trim().replace(/[\n\r\t]/g, '') || 'N/A';
-
   const names = fullName.split(/\s\s+/).map(name => name.trim()).filter(name => name);
   const firstName = names[9];
-  let semesters = 'N/A';
-  
-  
-  if(sgpa != 'N/A'){
-    const sgpas = sgpa.match(/\d+\.\d+/g);
-    semesters = sgpas.reduce((acc, sgpa, index) => {
-      acc[`sem${index + 1}`] = parseFloat(sgpa);
-      return acc;
-    }, {});
-  }
+ 
+  let semesters = {};
+
+  $('[id*="forlblSemesterId"]').each((i, elem) => {
+    let semester = $(elem)
+      .closest("tr")
+      .find('[id*="lblSemesterId"]')
+      .text()
+      .replace(/[A-Za-z]/g, "")
+      .trim();
+
+    let sgpa =
+      $(elem)
+        .closest("tr")
+        .next()
+        .next()
+        .next()
+        .find('[id*="lblSGPA"]')
+        .text()
+        .trim() || "N/A";
+
+    let sgpaValue = parseFloat(sgpa);
+
+    if (sgpa !== "N/A" && sgpaValue !== 0) {
+      semesters[`sem${semester}`] = sgpaValue;
+    }
+  });
 
   
 
-  if (rollNo == 'N/A' || name == 'N/A' || branch == 'N/A' || fullName == 'N/A' || !sgpa) {
+  if (rollNo == 'N/A' || name == 'N/A' || branch == 'N/A' || fullName == 'N/A') {
     return null;
   }
 
