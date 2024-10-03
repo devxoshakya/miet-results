@@ -20,4 +20,4 @@ def convert_txt_to_json(input_file, output_file):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-convert_txt_to_json('resolved_data.txt', 'students.json')
+convert_txt_to_json('scrapper/resolved.txt', 'students.json')

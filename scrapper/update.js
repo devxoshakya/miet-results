@@ -7,7 +7,9 @@ const path = require('path');
 
 
 // File path for storing all resolved data
-const outputFilePath = path.join(__dirname, 'resolved_data.txt');
+const outputFilePath = path.join(__dirname, 'resolved.txt');
+const studentDataFilePath = path.join(__dirname, 'data.json');
+
 
 // Function to read existing data from file
 function readExistingData() {
@@ -66,7 +68,7 @@ function getRandomUserAgent() {
 }
 
 
-async function solve(rollNo,day, month,year) {
+async function solve(rollNo,day,month,year) {
 
   
 let data = qs.stringify({
@@ -108,7 +110,7 @@ let config = {
   },
   data : data
 };
-  try {
+try {
     const response = await axios.request(config);
     const parseData = parseHTML(JSON.stringify(response.data));
     return parseData;
@@ -119,139 +121,119 @@ let config = {
 }
 
 function cleanString(str) {
-  return str.replace(/\\r|\\n/g, '').trim();
-}
-
-
-function parseHTML(htmlContent){
-  const $ = cheerio.load(htmlContent);
-  const rollNo = $('td:contains("RollNo")').next().next().text().trim() || 'N/A';
-  const name = $('td:contains("Institute Code")').next().next().text().replace(/[0-9()]/g, '').trim().replace(/[\n\r\t]/g, '') || 'N/A';
-  const branch = $('td:contains("Branch Code")').next().next().text().replace(/[0-9()]/g, '').trim() || 'N/A';
-  const fullName = $('td:contains("Name")').next().next().text().replace(/[0-9()]/g, '').trim().replace(/[\n\r\t]/g, '') || 'N/A';
-  const names = fullName.split(/\s\s+/).map(name => name.trim()).filter(name => name);
-  const firstName = names[9];
- 
-  let semesters = {};
-
-  $('[id*="forlblSemesterId"]').each((i, elem) => {
-    let semester = $(elem)
-      .closest("tr")
-      .find('[id*="lblSemesterId"]')
-      .text()
-      .replace(/[A-Za-z]/g, "")
-      .trim();
-
-    let sgpa =
-      $(elem)
-        .closest("tr")
-        .next()
-        .next()
-        .next()
-        .find('[id*="lblSGPA"]')
-        .text()
-        .trim() || "N/A";
-
-    let sgpaValue = parseFloat(sgpa);
-
-    if (sgpa !== "N/A" && sgpaValue !== 0) {
-      semesters[`sem${semester}`] = sgpaValue;
-    }
-  });
-
+    return str.replace(/\\r|\\n/g, '').trim();
+  }
   
-
-  if (rollNo === 'N/A' || name === 'N/A' || branch === 'N/A' || fullName === 'N/A') {
-    return null;
+  
+  function parseHTML(htmlContent){
+    const $ = cheerio.load(htmlContent);
+    const rollNo = $('td:contains("RollNo")').next().next().text().trim() || 'N/A';
+    const name = $('td:contains("Institute Code")').next().next().text().replace(/[0-9()]/g, '').trim().replace(/[\n\r\t]/g, '') || 'N/A';
+    const branch = $('td:contains("Branch Code")').next().next().text().replace(/[0-9()]/g, '').trim() || 'N/A';
+    const fullName = $('td:contains("Name")').next().next().text().replace(/[0-9()]/g, '').trim().replace(/[\n\r\t]/g, '') || 'N/A';
+    const names = fullName.split(/\s\s+/).map(name => name.trim()).filter(name => name);
+    const firstName = names[9];
+   
+    let semesters = {};
+  
+    $('[id*="forlblSemesterId"]').each((i, elem) => {
+      let semester = $(elem)
+        .closest("tr")
+        .find('[id*="lblSemesterId"]')
+        .text()
+        .replace(/[A-Za-z]/g, "")
+        .trim();
+  
+      let sgpa =
+        $(elem)
+          .closest("tr")
+          .next()
+          .next()
+          .next()
+          .find('[id*="lblSGPA"]')
+          .text()
+          .trim() || "N/A";
+  
+      let sgpaValue = parseFloat(sgpa);
+  
+      if (sgpa !== "N/A" && sgpaValue !== 0) {
+        semesters[`sem${semester}`] = sgpaValue;
+      }
+    });
+  
+    
+  
+    if (rollNo === 'N/A' || name === 'N/A' || branch === 'N/A' || fullName === 'N/A') {
+      return null;
+    }
+  
+  
+    return {
+      rollNo: cleanString(rollNo),
+      instituteName: cleanString(name),
+      branch: cleanString(branch),
+      SGPA: semesters,
+      fullName: cleanString(firstName)
+    };
+  
   }
 
-
-  return {
-    rollNo: cleanString(rollNo),
-    instituteName: cleanString(name),
-    branch: cleanString(branch),
-    SGPA: semesters,
-    fullName: cleanString(firstName)
-  };
-
-}
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 
-
-
-// Function to read roll numbers from a file
-async function readRollNumbers(filePath) {
-  const data = await fs0.readFile(filePath, 'utf-8');
-  return data.split('\n').map(line => line.trim()).filter(Boolean);
-}
-
-// Function to write roll numbers back to the file
-async function writeRollNumbers(filePath, rollNos) {
-  const data = rollNos.join('\n');
-  await fs0.writeFile(filePath, data, 'utf-8');
-}
-
-// Function to remove a resolved roll number from the file
-async function removeResolvedRollNumber(filePath, resolvedRollNo) {
-  const rollNos = await readRollNumbers(filePath);
-  const updatedRollNos = rollNos.filter(rollNo => rollNo !== resolvedRollNo);
-  await writeRollNumbers(filePath, updatedRollNos);
-}
-
-async function main(rollNo, filePath) {
-  const daysInMonth = {
-    1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30,
-    7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31
-  };
-
-  let solved = false;
-
-  for (let year = 2002; year <= 2005 && !solved; year++) {
-    for (let month = 1; month <= 12 && !solved; month++) {
-      console.log(`Trying for ${month}/${year}`);
-      const dataPromises = [];
-      const maxDays = daysInMonth[month];
-      
-      for (let day = 1; day <= maxDays; day++) {
-        const dataPromise = solve(rollNo, day.toString(), month.toString(), year.toString())
-          .then(async (data) => {
-            if (data) {
-              console.log(`Resolved for ${day}/${month}/${year}:`, data);
-              updateStudentData(rollNo, `${year}-${month}-${day}`, data.SGPA); // Update DOB and SGPA in MySQL
-              solved = true;
-              
-              // Remove the resolved roll number from the file
-              await removeResolvedRollNumber(filePath, rollNo);
-            }
-          })
-          .catch(error => {
-            console.error(`Error for ${day}/${month}/${year}:`, error);
-          });
-
-        dataPromises.push(dataPromise);
-        await delay(100); // Add a delay to avoid overwhelming the server
+// Function to format the DOB if needed (assuming the DOB in JSON is in the format YYYY-M-D)
+function formatDOB(dob) {
+    const [year, month, day] = dob.split('-');
+    // Ensure two digits for month and day
+    const formattedMonth = month.padStart(2, '0');
+    const formattedDay = day.padStart(2, '0');
+    return `${formattedDay}/${formattedMonth}/${year}`;
+  }
+  
+  // The main function (modified) which now uses rollNo and DOB from the JSON file
+  async function main(rollNo, formattedDOB) {
+    const [day, month, year] = formattedDOB.split('/');
+    await solve(rollNo, day, month, year)
+      .then((data) => {
+        if (data) {
+          console.log(`Resolved for rollNo ${rollNo}:`, data);
+          updateStudentData(rollNo, `${year}-${month}-${day}`, data.SGPA); // Update DOB and SGPA in the output file
+        }
+      })
+      .catch(error => {
+        console.error(`Error for rollNo ${rollNo}:`, error);
+      });
+  }
+  
+  // Function to update student data and write to the file
+  function updateStudentData(rollNo, dob, sgpa) {
+    const data = {
+      rollNo: rollNo,
+      DOB: dob,
+      SGPA: sgpa
+    };
+  
+    writeToFile(data);
+  }
+  
+  // Function to process each student from the combined_student_data.json
+  async function processStudentData() {
+    try {
+      const students = JSON.parse(fs.readFileSync(studentDataFilePath, 'utf8'));
+  
+      for (const student of students) {
+        const { rollNo, DOB } = student;
+        const formattedDOB = formatDOB(DOB); // Format the DOB as required by the website
+        console.log(`Processing roll number: ${rollNo} with DOB: ${formattedDOB}`);
+  
+        // Call the main function to get updated results
+        await main(rollNo, formattedDOB);
       }
-
-      // Wait for all promises in this month to resolve
-      await Promise.all(dataPromises);
+    } catch (err) {
+      console.error('Error reading student data:', err);
     }
   }
-}
-
-async function processRollNumbers(filePath) {
-  let rollNos = await readRollNumbers(filePath);
-  for (const rollNo of rollNos) {
-    console.log(`Processing roll number: ${rollNo}`);
-    await main(rollNo, filePath);
-    // Reload roll numbers from the file after each main call
-    rollNos = await readRollNumbers(filePath);
-  }
-}
-
-// Define the path to your roll numbers file
-const rollNosFilePath = path.join(__dirname, 'roll_numbers.txt');
-
-// Start processing roll numbers
-processRollNumbers(rollNosFilePath);
+  
+  // Start processing student data
+  processStudentData();
