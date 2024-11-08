@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import { FaSortUp, FaSortDown } from 'react-icons/fa';
+import PersistentModal from '../components/modal';
 
 const getHighestSGPA = (student) => {
   const semesters = Object.keys(student.SGPA).map(sem => parseInt(sem.replace('sem', ''), 10));
@@ -40,8 +41,14 @@ const RankList = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
 
+
+  const instagramStatus = localStorage.getItem('instagramClickedNew') === 'true';
+  const whatsappStatus = localStorage.getItem('whatsappClickedNew') === 'true';
+  console.log(instagramStatus, whatsappStatus); // true true
+
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/devxoshakya/portfolio/main/public/combined_student_data.json")
+    if(instagramStatus && whatsappStatus) {
+    fetch("https://raw.githubusercontent.com/devxoshakya/portfolio/main/public/data.json")
       .then(response => response.json())
       .then(data => {
         const rankedStudents = data.map((student, index) => ({
@@ -51,7 +58,8 @@ const RankList = () => {
         setStudents(rankedStudents);
       })
       .catch(error => console.error('Error fetching data:', error));
-  }, []);
+    }
+  }, [instagramStatus, whatsappStatus]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
@@ -100,12 +108,13 @@ const RankList = () => {
 
   return (
     <div className="container mx-auto p-4">
+      <PersistentModal />
       <div className='flex items-center justify-center'>
         <div className='font-mono text-sm my-10 mx-auto'>
           We take no guarantee of the information displayed below. <br />
           Please check the official <a href='https://oneview.aktu.ac.in/WebPages/aktu/OneView.aspx' className='text-blue-500'>AKTU Website</a> for your result. <br /><br />
           <a href='/disclaimer' className='text-blue-500 mx-auto'>full disclaimer</a>
-          <a href='/missing-rollNo' className='text-blue-500 mx-auto p-4'>missing data</a>
+          {/* <a href='/missing-rollNo' className='text-blue-500 mx-auto p-4'>missing data</a> */}
         </div>
       </div>
 
@@ -126,10 +135,10 @@ const RankList = () => {
             className="border rounded-md p-2 w-full max-w-md"
           >
             <option value="">All Years</option>
-            <option value="1">1st Year</option>
             <option value="2">2nd Year</option>
             <option value="3">3rd Year</option>
             <option value="4">4th Year</option>
+            <option value="2024">2024 Batch</option>
           </select>
         </div>
       </div>
