@@ -186,12 +186,23 @@ const RankList = () => {
             </tr>
           </thead>
           <tbody>
+          <tr className="cursor-pointer hover:bg-gray-100">
+              <td className="border border-gray-300 px-0 py-0 text-center">
+                {-1}
+              </td>
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                {"AKSHITA SRIVASTAVA"}
+              </td>
+              <td className="border border-gray-300 px-4 py-0 text-center">
+                {"CSE"}
+              </td>
+            </tr>
             <tr className="cursor-pointer hover:bg-gray-100">
               <td className="border border-gray-300 px-0 py-0 text-center">
                 {0}
               </td>
               <td className="border border-gray-300 px-4 py-2 text-center">
-                {"DEV SHKAYA"}
+                {"DEV SHAKYA"}
               </td>
               <td className="border border-gray-300 px-4 py-0 text-center">
                 {"CSE"}
