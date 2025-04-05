@@ -55,11 +55,11 @@ const RankList = () => {
   useEffect(() => {
     if (instagramStatus && whatsappStatus) {
       fetch(
-        "https://raw.githubusercontent.com/devxoshakya/portfolio/main/public/data.json"
+        "https://student-pearl-alpha.vercel.app/api/student"
       )
         .then((response) => response.json())
         .then((data) => {
-          const rankedStudents = data.map((student, index) => ({
+          const rankedStudents = data.data.map((student, index) => ({
             ...student,
             rank: index + 1,
           }));
@@ -242,6 +242,7 @@ const RankList = () => {
               </thead>
               <tbody>
                 {Object.keys(selectedStudent.SGPA).map((sem) => (
+                  ( sem !== "_id" &&
                   <tr key={sem}>
                     <td className="border border-gray-300 px-4 py-2 text-center">
                       {sem.replace("sem", "")}
@@ -250,6 +251,8 @@ const RankList = () => {
                       {selectedStudent.SGPA[sem]}
                     </td>
                   </tr>
+                  )
+                  
                 ))}
               </tbody>
             </table>
