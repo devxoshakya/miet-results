@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import { FaSortUp, FaSortDown } from "react-icons/fa";
+import { Loader2 } from "lucide-react"; // 👈 Spinner Icon
 import PersistentModal from "../components/modal";
 
 const getHighestSGPA = (student) => {
@@ -46,17 +47,16 @@ const RankList = () => {
   const [selectedYear, setSelectedYear] = useState("");
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
+  const [loading, setLoading] = useState(true); // 🔁 Loading state
 
   const instagramStatus =
     localStorage.getItem("instagramClickedNew") === "true";
   const whatsappStatus = localStorage.getItem("whatsappClickedNew") === "true";
-  console.log(instagramStatus, whatsappStatus); // true true
 
   useEffect(() => {
     if (instagramStatus && whatsappStatus) {
-      fetch(
-        "https://student-pearl-alpha.vercel.app/api/student"
-      )
+      setLoading(true); // Start loader
+      fetch("https://student-pearl-alpha.vercel.app/api/student")
         .then((response) => response.json())
         .then((data) => {
           const rankedStudents = data.data.map((student, index) => ({
@@ -65,7 +65,8 @@ const RankList = () => {
           }));
           setStudents(rankedStudents);
         })
-        .catch((error) => console.error("Error fetching data:", error));
+        .catch((error) => console.error("Error fetching data:", error))
+        .finally(() => setLoading(false)); // Stop loader
     }
   }, [instagramStatus, whatsappStatus]);
 
@@ -137,7 +138,6 @@ const RankList = () => {
           <a href="#" className="text-red-500 mx-auto">
             * 7th SEM result will be added soon.
           </a>
-          {/* <a href='/missing-rollNo' className='text-blue-500 mx-auto p-4'>missing data</a> */}
         </div>
       </div>
 
@@ -166,63 +166,70 @@ const RankList = () => {
         </div>
       </div>
 
-      <div className="overflow-x-auto w-[80%] mx-auto md:w-full items-center">
-        <table className="w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-gray-200">
-              <th
-                className="border border-gray font-semibold font-sans px-0 py-0 flex items-center justify-center cursor-pointer"
-                onClick={toggleSortOrder}
-              >
-                Institute Rank
-                {sortOrder === "asc" ? (
-                  <FaSortUp className="ml-2 md:mr-1 mt-2" />
-                ) : (
-                  <FaSortDown className="ml-2 md:mr-1 mb-2" />
-                )}
-              </th>
-              <th className="border border-gray-300 px-16 py-0 font-sans">
-                Name
-              </th>
-              <th className="border border-gray-300 px-0 py-0 font-sans">
-                Branch
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr className="cursor-pointer hover:bg-gray-100">
-              <td className="border border-gray-300 px-0 py-0 text-center">
-                {-1}
-              </td>
-              <td className="border border-gray-300 px-4 py-2 text-center">
-                {"AKSHITA SRIVASTAVA"}
-              </td>
-              <td className="border border-gray-300 px-4 py-0 text-center">
-                {"CSE"}
-              </td>
-            </tr>
-            <tr className="cursor-pointer hover:bg-gray-100">
-              <td className="border border-gray-300 px-0 py-0 text-center">
-                {0}
-              </td>
-              <td className="border border-gray-300 px-4 py-2 text-center">
-                {"DEV SHAKYA"}
-              </td>
-              <td className="border border-gray-300 px-4 py-0 text-center">
-                {"CSE"}
-              </td>
-            </tr>
-            {displayedStudents.map((student, index) => (
-              <StudentRow
-                key={index}
-                student={student}
-                rank={student.displayedRank}
-                onOpenModal={openModal}
-              />
-            ))}
-          </tbody>
-        </table>
-      </div>
+      {loading ? (
+        <div className="flex justify-center items-center h-40 text-blue-500 font-bold font-mono gap-2">
+          <Loader2 className="h-8 w-8 animate-spin text-blue-500" />
+          loading...
+        </div>
+      ) : (
+        <div className="overflow-x-auto w-[80%] mx-auto md:w-full items-center">
+          <table className="w-full border-collapse border border-gray-300">
+            <thead>
+              <tr className="bg-gray-200">
+                <th
+                  className="border border-gray font-semibold font-sans px-0 py-0 flex items-center justify-center cursor-pointer"
+                  onClick={toggleSortOrder}
+                >
+                  Institute Rank
+                  {sortOrder === "asc" ? (
+                    <FaSortUp className="ml-2 md:mr-1 mt-2" />
+                  ) : (
+                    <FaSortDown className="ml-2 md:mr-1 mb-2" />
+                  )}
+                </th>
+                <th className="border border-gray-300 px-16 py-0 font-sans">
+                  Name
+                </th>
+                <th className="border border-gray-300 px-0 py-0 font-sans">
+                  Branch
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="cursor-pointer hover:bg-gray-100">
+                <td className="border border-gray-300 px-0 py-0 text-center">
+                  {-1}
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  {"AKSHITA SRIVASTAVA"}
+                </td>
+                <td className="border border-gray-300 px-4 py-0 text-center">
+                  {"CSE"}
+                </td>
+              </tr>
+              <tr className="cursor-pointer hover:bg-gray-100">
+                <td className="border border-gray-300 px-0 py-0 text-center">
+                  {0}
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center">
+                  {"DEV SHAKYA"}
+                </td>
+                <td className="border border-gray-300 px-4 py-0 text-center">
+                  {"CSE"}
+                </td>
+              </tr>
+              {displayedStudents.map((student, index) => (
+                <StudentRow
+                  key={index}
+                  student={student}
+                  rank={student.displayedRank}
+                  onOpenModal={openModal}
+                />
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
 
       {selectedStudent && (
         <Modal
@@ -241,19 +248,19 @@ const RankList = () => {
                 </tr>
               </thead>
               <tbody>
-                {Object.keys(selectedStudent.SGPA).map((sem) => (
-                  ( sem !== "_id" &&
-                  <tr key={sem}>
-                    <td className="border border-gray-300 px-4 py-2 text-center">
-                      {sem.replace("sem", "")}
-                    </td>
-                    <td className="border border-gray-300 px-4 py-2 text-center">
-                      {selectedStudent.SGPA[sem]}
-                    </td>
-                  </tr>
-                  )
-                  
-                ))}
+                {Object.keys(selectedStudent.SGPA).map(
+                  (sem) =>
+                    sem !== "_id" && (
+                      <tr key={sem}>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          {sem.replace("sem", "")}
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">
+                          {selectedStudent.SGPA[sem]}
+                        </td>
+                      </tr>
+                    )
+                )}
               </tbody>
             </table>
             <button
