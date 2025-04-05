@@ -133,6 +133,10 @@ const RankList = () => {
           <a href="/disclaimer" className="text-blue-500 mx-auto">
             full disclaimer
           </a>
+          <br />
+          <a href="#" className="text-red-500 mx-auto">
+            * 7th SEM result will be added soon.
+          </a>
           {/* <a href='/missing-rollNo' className='text-blue-500 mx-auto p-4'>missing data</a> */}
         </div>
       </div>
