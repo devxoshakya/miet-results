@@ -103,12 +103,17 @@ const RankList = () => {
     }
   });
 
-  const filteredStudents = sortedStudents.filter(
-    (student) =>
-      (student.fullName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        student.rollNo.toString().includes(searchTerm)) &&
-      (selectedYear === "" || student.year.toString() === selectedYear)
-  );
+  const filteredStudents = sortedStudents.filter((student) => {
+  const matchesSearch =
+    student.fullName?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    student.rollNo?.toString().includes(searchTerm);
+
+  const matchesYear =
+    selectedYear === "" || student.year?.toString() === selectedYear;
+
+  return matchesSearch && matchesYear;
+});
+
 
   const displayedStudents = filteredStudents.map((student, index) => ({
     ...student,
