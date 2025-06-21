@@ -30,7 +30,7 @@ const StudentRow = ({ student, rank, onOpenModal }) => {
       <tr className="cursor-pointer hover:bg-gray-100" onClick={toggleOpen}>
         <td className="border border-gray-300 px-0 py-0 text-center">{rank}</td>
         <td className="border border-gray-300 px-4 py-2 text-center">
-          {student.name}
+          {student.fullName}
         </td>
         <td className="border border-gray-300 px-4 py-0 text-center">
           {student.branch}
@@ -105,7 +105,7 @@ const RankList = () => {
 
   const filteredStudents = sortedStudents.filter(
     (student) =>
-      (student.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (student.fullName.toLowerCase().includes(searchTerm.toLowerCase()) ||
         student.rollNo.toString().includes(searchTerm)) &&
       (selectedYear === "" || student.year.toString() === selectedYear)
   );
